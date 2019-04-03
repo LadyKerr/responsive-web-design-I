@@ -231,6 +231,7 @@ h1, h2, h3, h4, h5 {
     .container {
         width: 90%;
     }
+
     header {
         flex-wrap: wrap;
         justify-content: center;
@@ -260,6 +261,26 @@ h1, h2, h3, h4, h5 {
 
   /* Mobile CSS*/
   
-  @medial (max-width: 500px) {
+  @media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
 
+    header nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header nav a {
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        width: 100%;
+    }
+
+    .MiddleText {
+        flex-wrap: wrap;
+        flex-direction: coloumn;
+    }
   }
