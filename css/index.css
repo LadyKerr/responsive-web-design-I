@@ -224,3 +224,42 @@ h1, h2, h3, h4, h5 {
 	  display: flex;
   }
 
+  /* Tablet CSS*/
+
+  @media (max-width: 800px) {
+
+    .container {
+        width: 90%;
+    }
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header nav {
+        order: 1;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    header img {
+       margin: 0 auto;
+       padding-bottom: 30px;
+       padding-top: 0;
+    }
+
+    .MainContent img {
+        display: none;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+  }
+
+  /* Mobile CSS*/
+  
+  @medial (max-width: 500px) {
+
+  }
