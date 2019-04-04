@@ -257,6 +257,14 @@ h1, h2, h3, h4, h5 {
     h1 {
         margin-top: 0;
     }
+
+    .Main-Services .services-text {
+        width: 300px;
+        height: auto;
+    }
+
+    section .services-info-img {
+       display: none;
   }
 
   /* Mobile CSS*/
@@ -294,5 +302,25 @@ h1, h2, h3, h4, h5 {
         height: auto;
         margin: 0 auto;
     }
+
+    .services-header {
+        margin-left: 20px;
+    }
     
+    section .services-header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .services-bottom {
+        margin-left: 20px;
+    }
+
+    .Main-Services {
+        margin-left: 20px;
+    }
+
+    section .services-info-img {
+        display: none;
+    }
   }
